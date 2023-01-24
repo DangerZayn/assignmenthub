@@ -1277,8 +1277,8 @@ We believe the clients feedback will give you a better image about us than the f
 								</ul>
 							</div>
 							<div class="contact_right">
-								<form class="edrea_contact_form" action="/" method="post" autocomplete="off"
-									data-email="yourmail@gmail.com">
+								<form class="edrea_contact_form" action="https://formspree.io/f/xnqrnepz"
+                                                                 method="POST">
 									<div class="success"
 										data-success="Your message has been received, we will contact you soon."></div>
 									<div class="empty_notice"><span>Please Fill Required Fields</span></div>
@@ -1288,16 +1288,16 @@ We believe the clients feedback will give you a better image about us than the f
 									</div>
 									<div class="items">
 										<div class="item">
-											<input id="name" type="text" placeholder="Name*"/>
+											<input type="text" name="name" id="name" type="text" placeholder="Name*"/>
 										</div>
 										<div class="item">
-											<input id="email" type="email" placeholder="Email*"/>
+											<input type="email" name="email" id="email" type="email" placeholder="Email*"/>
 										</div>
 										<div class="item">
-											<textarea id="message" placeholder="Message*"></textarea>
+											<textarea type="text" name="message" id="message" placeholder="Message*"></textarea>
 										</div>
 										<div class="item">
-											<a id="send_message" href="#" data-text="Submit">Submit</a>
+											<a id="send_message" href="#" data-text="Submit" type="submit" value="Send">Submit</a>
 										</div>
 									</div>
 								</form>
