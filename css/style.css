@@ -1480,11 +1480,11 @@ body.dark .edrea_about {
 	line-height: 30px;
 	letter-spacing: 0em;
 }
-.edrea_contact .contact_left p .a {
+.edrea_contact .contact_left p a .btn {
 	color: #7e7e7e;
 	text-decoration: none;
 }
-.edrea_contact .contact_left p .a:hover {
+.edrea_contact .contact_left p a:hover .btn:hover {
 	color: #dd4242;
 }
 .edrea_contact .contact_right {
@@ -1539,7 +1539,7 @@ body.dark .edrea_about {
 .edrea_contact_form input[type="email"]:focus {
 	background: none;
 }
-.edrea_contact_form .a {
+.edrea_contact_form a .btn {
 	display: inline-block;
 	font-size: 20px;
 	font-style: normal;
@@ -1556,15 +1556,15 @@ body.dark .edrea_about {
 	position: relative;
 	background-color: transparent;
 }
-.edrea_contact_form .a:hover {
+.edrea_contact_form a:hover .btn:hover {
 	border-color: #0F2CB3;
 	background-color: #0F2CB3;
 	color: #fff;
 }
-.edrea_contact_form .a:hover:after {
+.edrea_contact_form a:hover:after .btn:hover:after {
 	height: 100%;
 }
-.edrea_contact_form .a:hover:before {
+.edrea_contact_form a:hover:before .btn:hover:before {
 	top: 0;
 }
 .edrea_contact_form .item {
