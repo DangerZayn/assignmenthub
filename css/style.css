@@ -1539,7 +1539,7 @@ body.dark .edrea_about {
 .edrea_contact_form input[type="email"]:focus {
 	background: none;
 }
-.edrea_contact_form a button {
+.edrea_contact_form button {
 	display: inline-block;
 	font-size: 20px;
 	font-style: normal;
