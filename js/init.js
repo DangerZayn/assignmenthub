@@ -69,29 +69,7 @@
           $(".empty_notice").slideDown(500).delay(2000).slideUp(500);
         } else {
           // Returns successful data submission message when the entered information is stored in database.
-          $.post(
-            //"modal/contact.php",
-            //{
-              //ajax_name: name,
-              //ajax_email: email,
-              //ajax_emailto: emailto,
-              //ajax_message: message,
-            //},
-            function (data) {
-              spanSuccess.append(data); //Append returned message to message paragraph
-              if (spanSuccess.find(".contact_error").length) {
-                spanSuccess.slideDown(500).delay(2000).slideUp(500);
-              } else {
-                spanSuccess.append(
-                  "<span class='contact_success'>" + success + "</span>"
-                );
-                spanSuccess.slideDown(500).delay(4000).slideUp(500);
-              }
-              if (data === "") {
-                form[0].reset(); //To reset form fields on success
-              }
-            }
-          );
+          
         }
         return false;
       });
