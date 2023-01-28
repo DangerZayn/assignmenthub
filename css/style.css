@@ -1561,10 +1561,10 @@ body.dark .edrea_about {
 	background-color: #0F2CB3;
 	color: #fff;
 }
-.edrea_contact_form a:hover:after {
+.edrea_contact_form a:hover:after button:hover:after {
 	height: 100%;
 }
-.edrea_contact_form a:hover:before {
+.edrea_contact_form a:hover:before button:hover:before {
 	top: 0;
 }
 .edrea_contact_form .item {
