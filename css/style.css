@@ -1556,7 +1556,7 @@ body.dark .edrea_about {
 	position: relative;
 	background-color: transparent;
 }
-.edrea_contact_form a:hover {
+.edrea_contact_form a:hover button.hdbtn:hover {
 	border-color: #0F2CB3;
 	background-color: #0F2CB3;
 	color: #fff;
