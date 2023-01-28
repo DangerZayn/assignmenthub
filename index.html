@@ -1279,20 +1279,29 @@ We believe the clients feedback will give you a better image about us than the f
 								</ul>
 							</div>
 							<div class="contact_right">
-								<form class="edrea_contact_form" action="https://formspree.io/f/mwkzpgze"
-                                                                 method="POST">
-									
-                      <input type="text" name="name" class="md-input" id="name" placeholder="Name *" required data-error="Your Name is Required">
-                      
-                      <input type="email" name="email" class="md-input" id="email" placeholder="Email *" required="" data-error="Please Enter Valid Email">
-                      
-                      <input type="text" name="phone" class="md-input" id="phone" placeholder="Phone">
-                    
-                      <input type="text" name="subject" class="md-input" id="subject" placeholder="Subject or Plan">
-                    
-                  <textarea name="message" class="md-textarea" id="message" rows="7" required data-error="Please, Leave us a message" placeholder="Your Message*"></textarea>
-                  
-                  <button type="submit" name="submit" class="btn btn-color btn-md btn-default btn-animate remove-margin"><span>Send <i class="ion-android-arrow-forward"></i></span></button>
+								<form class="edrea_contact_form" action="/" method="post" autocomplete="off"
+									data-email="yourmail@gmail.com">
+									<div class="success"
+										data-success="Your message has been received, we will contact you soon."></div>
+									<div class="empty_notice"><span>Please Fill Required Fields</span></div>
+									<div class="title">
+										<h3>We're always open to discuss with you</h3>
+										<h4>about your projects</h4>
+									</div>
+									<div class="items">
+										<div class="item">
+											<input id="name" type="text" placeholder="Name*" />
+										</div>
+										<div class="item">
+											<input id="email" type="email" placeholder="Email*" />
+										</div>
+										<div class="item">
+											<textarea id="message" placeholder="Message*"></textarea>
+										</div>
+										<div class="item">
+											<a id="send_message" href="#" data-text="Submit">Submit</a>
+										</div>
+									</div>
 								</form>
 							</div>
 						</div>
