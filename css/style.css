@@ -1480,7 +1480,7 @@ body.dark .edrea_about {
 	line-height: 30px;
 	letter-spacing: 0em;
 }
-.edrea_contact .contact_left p a .hdbtn{
+.edrea_contact .contact_left p a {
 	color: #7e7e7e;
 	text-decoration: none;
 }
@@ -1539,7 +1539,7 @@ body.dark .edrea_about {
 .edrea_contact_form input[type="email"]:focus {
 	background: none;
 }
-.edrea_contact_form a .hdbtn {
+.edrea_contact_form a {
 	display: inline-block;
 	font-size: 20px;
 	font-style: normal;
