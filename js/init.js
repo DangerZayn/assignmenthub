@@ -70,13 +70,13 @@
         } else {
           // Returns successful data submission message when the entered information is stored in database.
           $.post(
-            "modal/contact.php",
-            {
-              ajax_name: name,
-              ajax_email: email,
-              ajax_emailto: emailto,
-              ajax_message: message,
-            },
+            //"modal/contact.php",
+            //{
+              //ajax_name: name,
+              //ajax_email: email,
+              //ajax_emailto: emailto,
+              //ajax_message: message,
+            //},
             function (data) {
               spanSuccess.append(data); //Append returned message to message paragraph
               if (spanSuccess.find(".contact_error").length) {
