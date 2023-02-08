@@ -34,6 +34,41 @@
 </head>
 
 <body>
+	
+	<div class="popup">
+        <div class="contentBox">
+            <div class="close"></div>
+            <div class="imgBx">
+                <img src="gift.png">
+            </div>
+            <div class="content">
+                <div>
+                    <h3>Special Offer</h3>
+                    <h2>10<sup>%</sup><span> Off</span></h2>
+                    <p>Hello, as we have just launched our website, we are offering you a special offer for each assignment for a limited time. So be a part of it as soon as possible.</p>
+                    <a href="#">Get The Deal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!------ show popup after 2sec -------->
+    <script>
+        const popup = document.querySelector('.popup');
+        const close = document.querySelector('.close');
+        
+        window.onload = function(){
+            setTimeout(function(){
+                popup.style.display = "block";
+                
+                //add time delay to popup
+            }, 2000)
+        }
+        
+        close.addEventListener('click', () => {
+            popup.style.display = "none";
+        })
+    </script>
  
     <audio autoplay>
                 <source src="assignment.mp3" type="audio/mpeg">
