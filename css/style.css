@@ -2389,7 +2389,7 @@ body.dark .edrea_topbar ul li.button a:hover {
 {
     position: relative;
     max-width: 250px;
-    z-index: 1;
+    z-index: 60;
 }
 .contentBox .content
 {
