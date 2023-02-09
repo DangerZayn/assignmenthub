@@ -2443,7 +2443,7 @@ body.dark .edrea_topbar ul li.button a:hover {
     right: 20px;
     width: 40px;
     height: 40px;
-    background: #f3f3f3 url(close.png);
+    background: #f3f3f3 url(cancel.svg);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
