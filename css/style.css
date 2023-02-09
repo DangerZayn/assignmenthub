@@ -2436,7 +2436,7 @@ body.dark .edrea_topbar ul li.button a:hover {
     text-decoration: none;
     border-radius: 10px;
 }
-.close
+.closepop
 {
     position: absolute;
     top: 20px;
@@ -2478,7 +2478,7 @@ body.dark .edrea_topbar ul li.button a:hover {
         padding: 20px;
         padding-top: 0;
     }
-    .close
+    .closepop
     {
         top: -50px;
         right: -10px;
