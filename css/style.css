@@ -2456,6 +2456,10 @@ body.dark .edrea_topbar ul li.button a:hover {
 
 @media (max-width : 767px)
 {
+    .popup
+    {
+        padding-top: 100px;
+    }
     .contentBox
     {
         width: 300px;
@@ -2475,7 +2479,7 @@ body.dark .edrea_topbar ul li.button a:hover {
     {
         height: auto;
         text-align: center;
-        padding: 200px;
+        padding: 20px;
         padding-top: 0;
     }
     .closepop
