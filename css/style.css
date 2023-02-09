@@ -2480,11 +2480,12 @@ body.dark .edrea_topbar ul li.button a:hover {
     }
     .closepop
     {
-        top: 20px;
+        top: -50px;
         right: -10px;
         background: #f3f3f3 url(https://dangerzayn.github.io/assignmenthub/img/svg/cancel.svg);
         background-repeat: no-repeat;
         background-size: 50px;
         background-position: center; 
+	margin-top: 15px; 
     }
 }
