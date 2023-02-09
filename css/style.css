@@ -2475,8 +2475,8 @@ body.dark .edrea_topbar ul li.button a:hover {
     {
         height: auto;
         text-align: center;
-        padding: 20px;
-        padding-top: -600px;
+        padding: 200px;
+        padding-top: 0;
     }
     .closepop
     {
