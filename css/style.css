@@ -2343,6 +2343,9 @@ body.dark .edrea_topbar ul li.button a:hover {
 
 /* popup */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+
 {
     margin: 0;
     padding: 0;
@@ -2481,6 +2484,7 @@ body.dark .edrea_topbar ul li.button a:hover {
         text-align: center;
         padding: 20px;
         padding-top: 0;
+	padding-right: 10px;
     }
     .closepop
     {
